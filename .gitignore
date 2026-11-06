@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Node.js / React
+node_modules/
+build/
+dist/
+.npm/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+core/PowerShellGet/
